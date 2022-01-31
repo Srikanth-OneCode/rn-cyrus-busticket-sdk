@@ -26,8 +26,9 @@ public class RnCyrusBusticketSdkModule extends ReactContextBaseJavaModule {
     // Example method
     // See https://reactnative.dev/docs/native-modules-android
     @ReactMethod
-    public void multiply(int a, int b, Promise promise) {
-        promise.resolve(a * b);
+    public void callCyrusBus(int a, int b, Promise promise) {
+        MainActivity mainActivity = new MainActivity();
+        mainActivity.invokeCyrusBus();
     }
 
     public static native int nativeMultiply(int a, int b);
