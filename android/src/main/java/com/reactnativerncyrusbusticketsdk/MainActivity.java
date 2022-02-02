@@ -22,6 +22,11 @@ public class MainActivity extends ReactActivity {
     intent.putExtra("emailid", "xyz@gmail.com");
     intent.putExtra("logoimageurl", "https://demo.erechargebyte.com/Images/Company/actual/logo.png");
     startActivityForResult(intent, 1);
-    
+
+//    if (resultCode == RESULT_OK) {
+//      String m = data.getStringExtra("MESSAGE");
+//      Toast.makeText(MainActivity.this, "" + m, Toast.LENGTH_LONG).show();
+//    }
+
   }
 }
