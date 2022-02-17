@@ -21,7 +21,7 @@ public class MainActivity extends ReactActivity {
     intent.putExtra("onepayagentid", "cybharat");
     intent.putExtra("emailid", "xyz@gmail.com");
     intent.putExtra("logoimageurl", "https://demo.erechargebyte.com/Images/Company/actual/logo.png");
-    startActivityForResult(intent, 1);
+    startActivity(intent);
 
 //    if (resultCode == RESULT_OK) {
 //      String m = data.getStringExtra("MESSAGE");

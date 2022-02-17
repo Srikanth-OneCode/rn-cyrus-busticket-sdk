@@ -23,6 +23,6 @@ public class RnCyrusBusticketSdkPackage implements ReactPackage {
     @NonNull
     @Override
     public List<ViewManager> createViewManagers(@NonNull ReactApplicationContext reactContext) {
-        return Collections.emptyList();
+      return Collections.emptyList();
     }
 }
